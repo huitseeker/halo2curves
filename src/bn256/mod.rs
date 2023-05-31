@@ -23,3 +23,9 @@ pub enum LegendreSymbol {
     QuadraticResidue = 1,
     QuadraticNonResidue = -1,
 }
+
+pub type Base = Fq;
+pub type Scalar = Fr;
+pub type Point = G1;
+pub type Affine = G1Affine;
+pub type Compressed = G1Compressed;
